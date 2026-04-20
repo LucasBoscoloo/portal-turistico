@@ -403,7 +403,7 @@ button {
     position: relative;
 }
 
-#video .container video {
+#video .container iframe {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -883,6 +883,10 @@ button {
         min-width: 220px;
         padding: 14px 22px;
         font-size: 15px;
+    }
+
+    #video .container iframe {
+    height: 500px;
     }
 
 }
